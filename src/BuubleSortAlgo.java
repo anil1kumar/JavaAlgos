@@ -21,6 +21,7 @@ public class BuubleSortAlgo {
 	private static void sortTheNumbers() {
 		// TODO Auto-generated method stub
 		int swap = 0;
+		int check = 0;
 		for(int i = 0; i < numbers.length-1; i++) {
 			for(int j = 0; j < numbers.length - i - 1; j++) {
 				if(numbers[j] > numbers[j+1]) {
